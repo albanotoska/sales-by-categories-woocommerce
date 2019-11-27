@@ -1,0 +1,42 @@
+    #order_by_categories {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#order_by_categories td, #order_by_categories th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#order_by_categories tr:nth-child(even){background-color: #f2f2f2;}
+
+#order_by_categories tr:hover {background-color: #ddd;}
+
+#order_by_categories th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#order_by_categories .total_sum {
+  background-color: #c7c7c7 !important;
+}
+.button_download {
+  float:right;
+  background: #4CAF50;
+  padding: 8px 15px;
+  font-size:14px;
+  border:none;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+
+}
+.title_table {
+  float:left;
+  display: inline-block;
+}
+.container-title-button {
+  margin: 20px 20px 5px;
+}
